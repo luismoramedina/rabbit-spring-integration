@@ -1,3 +1,9 @@
 = Spring integration + amqp + rabbit + sleuth
 
 POC to test integration between spring integration and rabbit, using sleuth tracing
+
+== Configuration
+
+use '-Dinbound=false' to disable receiving
+
+use '-Doutbound=false' to disable sending
